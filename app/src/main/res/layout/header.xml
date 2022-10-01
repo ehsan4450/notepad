@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/purple_500"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:layout_height="200dp">
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/profile_image"
+        app:civ_border_width="2dp"
+        android:layout_marginStart="20dp"
+        app:civ_border_color="#FF000000"/>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mahmud Ali naghi"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:layout_marginStart="24dp"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:text="+98 21 22886633"
+        android:layout_marginStart="24dp"
+        />
+
+
+
+</LinearLayout>

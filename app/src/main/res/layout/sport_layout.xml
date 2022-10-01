@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@drawable/download"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/android_m"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call Of Duty"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+          android:text="Start"
+         android:background="#FF5722"
+        style="@style/inputs"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+         android:background="@drawable/button_corner"
+         android:text="Setting"
+        style="@style/inputs"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:gravity="right"
+        style="@style/inputs"
+        android:background="#FFEB3B"
+        android:text="About"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/inputs"
+        android:text="Exit"
+        android:background="#9C27B0"
+        />
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects/class/group233/Notepad/app/src/main/res/drawable/button_corner.xml" value="0.2265" />
+        <entry key="..\:/Projects/class/group233/Notepad/app/src/main/res/drawable/circle_shape.xml" value="0.2265" />
+        <entry key="..\:/Projects/class/group233/Notepad/app/src/main/res/drawable/gradiant_bg.xml" value="0.2265" />
+        <entry key="..\:/Projects/class/group233/Notepad/app/src/main/res/drawable/ic__377025_android_logo_media_social_icon.xml" value="0.2265" />
+        <entry key="..\:/Projects/class/group233/Notepad/app/src/main/res/drawable/ic_baseline_school_24.xml" value="0.2265" />
+        <entry key="..\:/Projects/class/group233/Notepad/app/src/main/res/layout/activity_about.xml" value="0.22826086956521738" />
+        <entry key="..\:/Projects/class/group233/Notepad/app/src/main/res/layout/activity_add_note.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/class/group233/Notepad/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Projects/class/group233/Notepad/app/src/main/res/layout/activity_resume.xml" value="0.22826086956521738" />
+        <entry key="..\:/Projects/class/group233/Notepad/app/src/main/res/layout/activity_setting.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/class/group233/Notepad/app/src/main/res/layout/color_layout.xml" value="0.16" />
+        <entry key="..\:/Projects/class/group233/Notepad/app/src/main/res/layout/header.xml" value="0.253125" />
+        <entry key="..\:/Projects/class/group233/Notepad/app/src/main/res/layout/login_layout.xml" value="0.1" />
+        <entry key="..\:/Projects/class/group233/Notepad/app/src/main/res/layout/note_row.xml" value="0.4" />
+        <entry key="..\:/Projects/class/group233/Notepad/app/src/main/res/layout/rate_dialog.xml" value="0.253125" />
+        <entry key="..\:/Projects/class/group233/Notepad/app/src/main/res/layout/relative_temp.xml" value="0.1" />
+        <entry key="..\:/Projects/class/group233/Notepad/app/src/main/res/layout/scroll_layout.xml" value="0.22826086956521738" />
+        <entry key="..\:/Projects/class/group233/Notepad/app/src/main/res/layout/sport_layout.xml" value="0.22826086956521738" />
+        <entry key="..\:/Projects/class/group233/Notepad/app/src/main/res/layout/transparent_layout.xml" value="0.22826086956521738" />
+        <entry key="..\:/Projects/class/group233/Notepad/app/src/main/res/layout/weight_layout.xml" value="0.22826086956521738" />
+        <entry key="..\:/Projects/class/group233/Notepad/app/src/main/res/menu/main_menu.xml" value="0.1" />
+        <entry key="..\:/Projects/class/group233/Notepad/app/src/main/res/menu/slide_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/class/group233/Notepad/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Projects/class/group233/Notepad/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.158" />
+        <entry key="..\:/اندروید ایران/Notepad-S9/Notepad/app/src/main/res/layout/activity_about.xml" value="0.1125" />
+        <entry key="..\:/اندروید ایران/Notepad-S9/Notepad/app/src/main/res/layout/activity_add_note.xml" value="0.1539855072463768" />
+        <entry key="..\:/اندروید ایران/Notepad-S9/Notepad/app/src/main/res/layout/activity_main.xml" value="0.1125" />
+        <entry key="..\:/اندروید ایران/Notepad-S9/Notepad/app/src/main/res/layout/color_layout.xml" value="0.1125" />
+        <entry key="..\:/اندروید ایران/Notepad-S9/Notepad/app/src/main/res/layout/header.xml" value="0.1125" />
+        <entry key="..\:/اندروید ایران/Notepad-S9/Notepad/app/src/main/res/layout/note_row.xml" value="0.2" />
+        <entry key="..\:/اندروید ایران/Notepad-S9/Notepad/app/src/main/res/layout/rate_dialog.xml" value="0.1125" />
+        <entry key="..\:/اندروید ایران/Notepad-S9/Notepad/app/src/main/res/layout/relative_temp.xml" value="0.25416666666666665" />
+        <entry key="..\:/اندروید ایران/Notepad-S9/Notepad/app/src/main/res/layout/scroll_layout.xml" value="0.1125" />
+        <entry key="..\:/اندروید ایران/Notepad-S9/Notepad/app/src/main/res/layout/sport_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/اندروید ایران/Notepad-S9/Notepad/app/src/main/res/layout/transparent_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/اندروید ایران/Notepad-S9/Notepad/app/src/main/res/layout/weight_layout.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

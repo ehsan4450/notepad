@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/item_about"
+        android:title="@string/about_us" />
+
+    <item
+        android:id="@+id/item_contact"
+        android:title="@string/contact" />
+
+
+    <item
+
+        android:id="@+id/item_rate"
+        android:title="@string/rate" />
+
+    <item
+
+        android:id="@+id/item_login"
+        android:title="@string/login" />
+
+    <item
+
+        android:id="@+id/item_exit"
+        android:title="@string/exit" />
+
+    <item
+        android:id="@+id/item_search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="@string/search"
+        app:iconTint="@color/white"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/item_website"
+        android:icon="@drawable/ic_baseline_web_24"
+        android:title="@string/web"
+        app:iconTint="@color/white"
+        app:showAsAction="always" />
+
+
+</menu>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activties.AddNoteActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/img_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                app:srcCompat="@drawable/ic_baseline_arrow_forward_24"
+                app:tint="@color/white" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_32"
+                android:layout_toStartOf="@id/img_back"
+                android:text="@string/add_note"
+                android:textColor="@color/white" />
+
+
+        </RelativeLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="@dimen/margin_32"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/title" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edt_description"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/edt_title"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="@dimen/margin_32"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/description" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_description"
+        android:layout_marginTop="@dimen/margin_32"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_500"
+            android:text="@string/date"
+            android:id="@+id/btn_date"
+            android:textColor="@color/white"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@color/blue_500"
+            android:text="@string/time"
+            android:id="@+id/btn_time"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/btn_save"
+        android:layout_alignParentBottom="true"
+        android:background="@color/blue_500"
+        android:text="@string/save"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>
